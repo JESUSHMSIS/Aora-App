@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
       <ScrollView contendContanerStyle={{ height: "100%" }}>
-        <View className="w-full justify-center items-center min-h-[85vh] px-4">
+        <View className="w-full justify-center items-center h-full px-4">
           <Image
             source={images.logo}
             className="w-[130px] h-[84px]"
@@ -18,7 +18,7 @@ const Index = () => {
 
           <Image
             source={images.cards}
-            className="max-w-[380px] w-full h-[300px]"
+            className="max-w-[380px] w-full h-[298px]"
             resizeMode="contain"
           />
 
